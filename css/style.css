@@ -1,0 +1,111 @@
+ 
+ ​HTML​ ​CSS​ ​Result​ ​Skip​ ​Results​ ​Iframe 
+ ​html​ { 
+ ​   
+ ​} 
+  
+ ​body​ { 
+ ​font-family​:​ sans-serif; 
+ ​line-height​:​ ​26​px​; 
+ ​color​:​ ​#​36096d​; 
+ ​} 
+  
+ ​.​bg​ { 
+ ​  ​animation​:​slide ​3​s​ ease-in-out infinite alternate; 
+ ​  ​background-image​:​ ​linear-gradient​(​-60​deg​,​ ​#​36096d​ ​50​%​,​ ​#​FFF​ ​50​%​); 
+ ​  ​bottom​:​0​; 
+ ​  ​left​:​-50​%​; 
+ ​  ​opacity​:​.5​; 
+ ​  ​position​:​fixed; 
+ ​  ​right​:​-50​%​; 
+ ​  ​top​:​0​; 
+ ​  ​z-index​:​-1​; 
+ ​} 
+  
+ ​.​bg2​ { 
+ ​  ​animation-direction​:​alternate-reverse; 
+ ​  ​animation-duration​:​4​s​; 
+ ​} 
+  
+ ​.​bg3​ { 
+ ​  ​animation-duration​:​5​s​; 
+ ​} 
+  
+ ​.​content​ { 
+ ​  ​background-color​:​rgba​(​255​,​255​,​255​,​.8​); 
+ ​  ​border-radius​:​ ​.25​em​; 
+ ​  ​box-shadow​:​0​ ​0​ ​.25​em​ ​rgba​(​0​,​0​,​0​,​.25​); 
+ ​  ​box-sizing​:​border-box; 
+ ​  ​padding​:​ ​1​px​; 
+ ​  ​text-align​:​center; 
+ ​} 
+  
+ ​h1​ { 
+ ​  ​font-family​:​monospace; 
+ ​} 
+  
+ ​@keyframes​ slide { 
+ ​  ​0​%​ { 
+ ​    ​transform​:​translateX​(​-25​%​); 
+ ​  } 
+ ​  ​100​%​ { 
+ ​    ​transform​:​translateX​(​25​%​); 
+ ​  } 
+ ​} 
+  
+ ​.​half​{ 
+ ​  ​width​:​ ​50​%​; 
+ ​  ​float​:​ left; 
+ ​} 
+ ​.​halfi​{ 
+ ​  ​width​:​ ​60​%​; 
+ ​  ​padding-left​:​ px; 
+ ​}   
+  
+ ​.​wcontent​ { 
+ ​  ​background-color​:​ ​rgba​(​77​,​ ​5​,​ ​232​,​ ​1​); 
+ ​  ​border-radius​:​ ​100​rem​; 
+ ​  ​box-shadow​:​0​ ​0​ ​.25​em​ ​rgba​(​0​,​0​,​0​,​.25​); 
+ ​  ​box-sizing​:​border-box; 
+ ​  ​padding-left​:​ ​10​px​; 
+ ​  ​text-align​:​center; 
+ ​} 
+  
+ ​.​Whalf​{ 
+ ​  ​width​:​ auto; 
+ ​  ​float​:​ left; 
+ ​  } 
+ ​   
+ ​.​Whalfi​{ 
+ ​  ​width​:​ ​auto; 
+ ​  ​padding-right​:​ ; 
+ ​} 
+  
+ ​.​custom-color​{ 
+ ​                                ​color​:​ ​#​a40606​; 
+ ​} 
+ ​.​primary-btn​{ 
+ ​                                ​background-image​:​ ​linear-gradient​(​315​deg​,​ ​#​a40606​ ​0​%​,​ ​#​d98324​ ​74​%​); 
+ ​                  ​color​:​ ​#​a40606​; 
+ ​                  ​text-decoration​:​ none; 
+ ​                  ​border-radius​:​ ​20​px​; 
+ ​           ​padding​:​ ​13​px​ ​42​px​ ​13​px​ ​42​px​; 
+ margin: 10px 10px 10px 10px
+ ​} 
+ ​        ​h1​{ 
+ ​          ​font-size​:​ ​2.4​em​; 
+ ​} 
+ ​.​box​{ 
+ ​  ​padding-left​:​ ​5​%​; 
+ ​  ​display​:​ inline-block; 
+ ​} 
+ ​.​exp​{ 
+ ​  ​padding​:​ ​30​px​; 
+ ​  ​margin​:​ ​30​px​; 
+ ​  ​background-color​:​ ​rgb​(​238​,​ ​251​,​ ​255​); 
+ ​  ​border-radius​:​ ​20​px​; 
+ ​} 
+ ​.​exp-item​{ 
+ ​  ​padding​:​ ​10​px​; 
+ ​  ​border-left​:​ ​rgba​(​137​,​ ​130​,​ ​247​,​ ​.2​) 
+ ​}
